@@ -69,7 +69,7 @@ a:hover {
 	width: 96%;
 	max-width: 1200px;
 	height: 700px;
-	background-image: url("Resources/img-mission-background.jpg");
+	background-image: url("img-mission-background.jpg");
 	display: flex;
 	justify-content: center;
 	align-items: center;
