@@ -1,0 +1,184 @@
+* {
+margin: 0px 0px;
+color: seashell;
+}
+
+body {
+background-color: black;
+font-family: "Helvetica", sans serif;
+
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	//align-content: center;
+	min-height: 69px;
+	width: 100%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+}
+
+#logo {
+	height: 50px;
+	float: right;
+	padding: 10px;
+	
+}
+
+.navContainer ul {
+	display: inline-flex;
+	justify-content: flex-end;
+	list-style: none;
+	//align-content: flex-end;
+}
+
+.navOpts li{
+	padding-right: 10px;
+	//text-decoration: underline;
+	font-size: 18px;
+	}
+
+.navOpts a {
+	text-decoration: underline;
+	padding: 2px;
+}
+
+a:active {
+	text-decoration: none;
+	color: pink;
+}	
+
+a:hover {
+	text-decoration: none;
+	background-color: grey;
+	border-radius: 5px;
+}	
+	
+	
+.missionContainer {
+	width: 96%;
+	max-width: 1200px;
+	height: 700px;
+	background-image: url("Resources/img-mission-background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	//margin-top: 80px;
+	margin: 74px auto 0;
+}
+
+.missContent {
+	background-color: black;
+	text-align: center;
+	line-height: 2;
+	width: 100%;
+	padding: 10px 0;
+}
+
+.featContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 1000px;
+	padding: 50px 100px;
+}
+
+
+
+.featContainer img {
+	width:300px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+#featHead {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+#featHead h2 {
+	padding: 10px 0px;
+}
+
+#featImage {
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: space-between;
+}
+
+#featCap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;	
+}
+
+.locContainer {
+	width: 96%;
+	max-width: 1200px;
+	height: 500px;
+	background-image: url("Resources/img-locations-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	
+	
+}
+
+.locContainer h2 {
+	padding-bottom: 15px;
+}
+
+.cardsContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: center;
+	
+}
+
+#cards {
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#cards h4 , #cards h3{
+	text-align: center;
+	line-height: 3;
+}
+
+#contact {
+	height: 200px;
+	width: 100%;
+	font-family: "Helvetica", sans serif;
+	text-align: center;
+	line-height: 3;
+}
+
+.footContainer h5 {
+padding-left: 20px;
+}
