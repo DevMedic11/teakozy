@@ -132,7 +132,7 @@ a:hover {
 	width: 96%;
 	max-width: 1200px;
 	height: 500px;
-	background-image: url("Resources/img-locations-background.jpg");
+	background-image: url("img-locations-background.jpg");
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
